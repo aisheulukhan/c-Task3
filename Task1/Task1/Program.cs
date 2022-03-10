@@ -23,7 +23,7 @@ namespace Task1
             {
                 if (arr[min] > arr[i])
                     min = i;
-                if (arr[max] < arr[i])
+                else if (arr[max] < arr[i])
                     max = i;
               
             }
